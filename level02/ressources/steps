@@ -1,0 +1,4 @@
+Step 1 : Read pcap file with Wireshark
+Step 2 : Follow tcp stream
+Step 3 : Print Data in ASCII (got ft_wandr...NDRel.L0L)
+Step 4 : The . is because wireshark cant display the hex as ASCII char if they'rnt in the ASCII table, read every . they were all /177 (7f) which is DEL in man ascii, removed accordingly and found flag
