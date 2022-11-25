@@ -1,0 +1,18 @@
+0:00:00:00 Starting a new session
+0:00:00:00 Loaded a total of 1 password hash
+0:00:00:00 - Hash type: descrypt, traditional crypt(3) (lengths up to 8, longer passwords split)
+0:00:00:00 - Algorithm: DES 64/64
+0:00:00:00 - Candidate passwords will be buffered and tried in chunks of 64
+0:00:00:00 - Configured to use otherwise idle processor cycles only
+0:00:00:00 Proceeding with "single crack" mode
+0:00:00:00 - 1081 preprocessed word mangling rules
+0:00:00:00 - Allocated 1 buffer of 64 candidate passwords
+0:00:00:00 - Rule #1: ':' accepted as ''
+0:00:00:00 - No information to base candidate passwords on
+0:00:00:00 - Processing the remaining buffered candidate passwords, if any
+0:00:00:00 Proceeding with wordlist mode
+0:00:00:00 - Wordlist file: ./password.lst
+0:00:00:00 - 57 preprocessed word mangling rules
+0:00:00:00 - Rule #1: ':' accepted as ''
+0:00:00:00 + Cracked ?
+0:00:00:00 Session completed
