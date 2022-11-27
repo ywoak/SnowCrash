@@ -1,3 +1,3 @@
 Step 1 -> Cat /etc/passwd (found password of flag01 but encrypted)
 Step 2 -> scp -P 4242 level01@127.0.0.1:/etc/passwd ~/copy_etc_passwd (to have it in local)
-Step 3 -> Run john --show copy_etc_passwd (abcdefg is the flag)
+Step 3 -> Run john --show copy_etc_passwd (abcdefg is the flag to connect to flag01 then getflag)
