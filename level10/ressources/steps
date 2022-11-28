@@ -1,0 +1,20 @@
+1/ disassemble level10
+2/ we see it create a web client, (socket, connect, write, read...)
+3/ launch the binary, it tell us to input a file, and an host to send the content if you have """ACCESS""" to it
+4/ after taking a look at the access() man, there is something write:
+
+Avertissement : Utiliser access() pour vérifier si un utilisateur a le droit, par exemple, d'ouvrir un fichier avant d'effectuer réellement l'ouverture avec open(2), risque de créer un trou de sécurité. En effet, l'utilisateur peut exploiter le petit intervalle de temps entre la vérification et l'accès pour modifier le fichier (via un lien symbolique en général). Pour cette raison, l'utilisation de cet appel système devrait être évitée.
+
+5/ so to resolve this flag its straigth forward. create a TOCTOU RACE CONDITION
+6/ create a readable file, let the code reach access() and allow it, then create a symlink to the token file before that the code read() it
+7/ to get the result we have to create a small webserv that listen on 6969 (that were the client hit on)
+8/ infinit loop while the luck come. hf
+
+
+Connected by ('127.0.0.1', 42188)
+.*( )*.
+yoo
+
+Connected by ('127.0.0.1', 42189)
+.*( )*.
+woupa2yuojeeaaed06riuj63c
