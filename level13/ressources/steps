@@ -1,0 +1,8 @@
+scp -P 4242 level13@127.0.0.1:~/level13 .
+sudo groupadd flag13 -g 4242
+sudo useradd flag13 -u 4242 -g 4242 -d /home/flag13 -s /bin/bash
+sudo passwd flag13
+su flag13
+./level13
+
+because the binary only gave the flag to the user with uid of 4242
