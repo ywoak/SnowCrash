@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a6b54278-b197-499d-a0f9-2ce4f295a756" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/level01/ressources/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/level00/ressources/steps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/level01/ressources/steps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/level02/ressources/level02.pcap.format" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/level02/ressources/steps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme" beforeDir="false" />
-    </list>
+    <list default="true" id="a6b54278-b197-499d-a0f9-2ce4f295a756" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,7 +44,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669940323703</updated>
-      <workItem from="1669940326283" duration="5801000" />
+      <workItem from="1669940326283" duration="5850000" />
     </task>
     <servers />
   </component>
