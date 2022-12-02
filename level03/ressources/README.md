@@ -1,5 +1,7 @@
 # LEVEL 03
 
+There is a level03 binary in our home directory.
+
 ```
 objdump -M intel -f .text -d ./level03
 ```

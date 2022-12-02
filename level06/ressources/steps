@@ -1,2 +1,0 @@
-Trailing e after regex pattern in x() exec php code, so we put the pattern as arg1 with [x *] and in * we put {${shell_exec(getflag)}}
-then the pattern matching is done and executed and we get the flag

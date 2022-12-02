@@ -1,4 +1,0 @@
-Step 1 : We have an apache server running, by default on port 80
-Step 2 : Go through the config files for the server and on site-enabled/level05.conf they define the rootDirectory of the endpoint at port 4747 as the cgi perl script in /www/var/level04/level04.pl that handles the cgi request, the perl prints value for ?x=value but it does it via `` in perl, which just execute code as the owner of the cgi perl script so we can inject code and it will directly expand and the result be printed to us in the body of the html page
-Step 3 : Inject getflag via localhost:4747?x=boo%26%26getflag (%26 being the hex value for & in ASCII), this way the program not only does the expected echo boo but also execute the command getflag right after
-
