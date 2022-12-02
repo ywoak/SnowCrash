@@ -1,3 +1,0 @@
-level11.lua-> create a webserver listening on PORT 5151
-To send anything we send a request with nc localhost 5151 to wait for the password prompt
-It uses Popen which blindly execute shell code kinda like system, and it is SetUID so we can argforecho; `getflag` > /tmp/flag

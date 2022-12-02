@@ -1,8 +1,0 @@
-reverse the binary to understand general control flow of the program ->
-	Setuid/gid
-	got content from env var LOGNAME
-	Then sent it to asprintf with %s to write it to str
-	Then printed it with system /bin/echo str
-	So we needed str to evaluate to getflag since system was launching it
-export LOGNAME=\`getflag\`
-./level07
