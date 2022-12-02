@@ -1,1 +1,0 @@
-- disassemble and decompile ft_des (done using ghidra but im sure we can do it with nasm on the assembly code itself or just decompile it by hand line by line), then recompile it ourself to send the encrypted key for level14 which was written in the strings of the object as arg and see the flag as a result
