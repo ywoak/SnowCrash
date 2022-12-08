@@ -1,4 +1,4 @@
-Write up ->
+# LEVEL 14
 
 When arriving on ~ we see nothing, and find / -uid 2014/3014 gives us nothing so the only thing thats usually not in a clean system that was out of the ordinary was the /bin/getflag itself and when we analyse it statically with file/strings/ltrace/strace we understand that this is the right path to follow
 
